@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1223B626E37C9B75843341 /* Pods_WebBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5614552D1517FB96BBC8E9 /* Pods_WebBrowser.framework */; };
 		891E357626046EF4004D9637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E357526046EF4004D9637 /* AppDelegate.swift */; };
 		891E357826046EF5004D9637 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E357726046EF5004D9637 /* SceneDelegate.swift */; };
 		891E357A26046EF5004D9637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E357926046EF5004D9637 /* ViewController.swift */; };
@@ -15,6 +16,20 @@
 		891E358226046EFE004D9637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891E358026046EFE004D9637 /* LaunchScreen.storyboard */; };
 		891E358D26046EFE004D9637 /* WebBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E358C26046EFE004D9637 /* WebBrowserTests.swift */; };
 		891E359826046EFE004D9637 /* WebBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E359726046EFE004D9637 /* WebBrowserUITests.swift */; };
+		8960B5152609449F00F3D394 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8960B5142609449F00F3D394 /* Tab.swift */; };
+		8960B51D2609457400F3D394 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8960B51C2609457400F3D394 /* Bookmark.swift */; };
+		8960B5252609BE9400F3D394 /* PopulationFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8960B5242609BE9400F3D394 /* PopulationFunctions.swift */; };
+		89BEC2E12605279B0084C2C6 /* BrowserHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEC2E02605279B0084C2C6 /* BrowserHomeViewController.swift */; };
+		89BEC2E6260527C60084C2C6 /* TabsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEC2E5260527C60084C2C6 /* TabsTableViewController.swift */; };
+		89BEC2EB260527DB0084C2C6 /* BookmarksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEC2EA260527DB0084C2C6 /* BookmarksTableViewController.swift */; };
+		89BEC2F0260528110084C2C6 /* TabsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEC2EF260528110084C2C6 /* TabsTableViewCell.swift */; };
+		89BEC2F52605281F0084C2C6 /* BookmarksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEC2F42605281F0084C2C6 /* BookmarksTableViewCell.swift */; };
+		89BEC2FA26052BE70084C2C6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BEC2F926052BE70084C2C6 /* WebKit.framework */; };
+		89C644B62605303800C4199E /* icons8-bookmark-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C644B22605303600C4199E /* icons8-bookmark-96.png */; };
+		89C644C6260537BC00C4199E /* icons8-refresh-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C644C5260537BC00C4199E /* icons8-refresh-64.png */; };
+		89C644D52605383000C4199E /* icons8-previous-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C644D32605382F00C4199E /* icons8-previous-64.png */; };
+		89C644D62605383000C4199E /* icons8-next-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C644D42605383000C4199E /* icons8-next-64.png */; };
+		89E900A9260AECD500B41447 /* NotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E900A8260AECD500B41447 /* NotificationBanner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2045EBB1DA23B261DAFF56C8 /* Pods-WebBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebBrowser.debug.xcconfig"; path = "Target Support Files/Pods-WebBrowser/Pods-WebBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 		891E357226046EF4004D9637 /* WebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		891E357526046EF4004D9637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		891E357726046EF5004D9637 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,22 @@
 		891E359326046EFE004D9637 /* WebBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		891E359726046EFE004D9637 /* WebBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBrowserUITests.swift; sourceTree = "<group>"; };
 		891E359926046EFE004D9637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8960B5142609449F00F3D394 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		8960B51C2609457400F3D394 /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		8960B5242609BE9400F3D394 /* PopulationFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationFunctions.swift; sourceTree = "<group>"; };
+		89BEC2E02605279B0084C2C6 /* BrowserHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserHomeViewController.swift; sourceTree = "<group>"; };
+		89BEC2E5260527C60084C2C6 /* TabsTableViewController.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = TabsTableViewController.swift; sourceTree = "<group>"; };
+		89BEC2EA260527DB0084C2C6 /* BookmarksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksTableViewController.swift; sourceTree = "<group>"; };
+		89BEC2EF260528110084C2C6 /* TabsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsTableViewCell.swift; sourceTree = "<group>"; };
+		89BEC2F42605281F0084C2C6 /* BookmarksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksTableViewCell.swift; sourceTree = "<group>"; };
+		89BEC2F926052BE70084C2C6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		89C644B22605303600C4199E /* icons8-bookmark-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-bookmark-96.png"; sourceTree = "<group>"; };
+		89C644C5260537BC00C4199E /* icons8-refresh-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-refresh-64.png"; sourceTree = "<group>"; };
+		89C644D32605382F00C4199E /* icons8-previous-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-previous-64.png"; sourceTree = "<group>"; };
+		89C644D42605383000C4199E /* icons8-next-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-next-64.png"; sourceTree = "<group>"; };
+		89E900A8260AECD500B41447 /* NotificationBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBanner.swift; sourceTree = "<group>"; };
+		9C5614552D1517FB96BBC8E9 /* Pods_WebBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AE2C2BAD082B2FBEFFE10A /* Pods-WebBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebBrowser.release.xcconfig"; path = "Target Support Files/Pods-WebBrowser/Pods-WebBrowser.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89BEC2FA26052BE70084C2C6 /* WebKit.framework in Frameworks */,
+				2A1223B626E37C9B75843341 /* Pods_WebBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +110,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E867701BBE6ED9DB22A4A68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89BEC2F926052BE70084C2C6 /* WebKit.framework */,
+				9C5614552D1517FB96BBC8E9 /* Pods_WebBrowser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		891E356926046EF4004D9637 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +126,8 @@
 				891E358B26046EFE004D9637 /* WebBrowserTests */,
 				891E359626046EFE004D9637 /* WebBrowserUITests */,
 				891E357326046EF4004D9637 /* Products */,
+				F02C8B1D77FA41991F6456EE /* Pods */,
+				3E867701BBE6ED9DB22A4A68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +148,20 @@
 				891E357726046EF5004D9637 /* SceneDelegate.swift */,
 				891E357926046EF5004D9637 /* ViewController.swift */,
 				891E357B26046EF5004D9637 /* Main.storyboard */,
+				89BEC2E5260527C60084C2C6 /* TabsTableViewController.swift */,
+				89BEC2EA260527DB0084C2C6 /* BookmarksTableViewController.swift */,
+				89BEC2EF260528110084C2C6 /* TabsTableViewCell.swift */,
+				8960B5142609449F00F3D394 /* Tab.swift */,
+				8960B51C2609457400F3D394 /* Bookmark.swift */,
+				89BEC2F42605281F0084C2C6 /* BookmarksTableViewCell.swift */,
+				89BEC2E02605279B0084C2C6 /* BrowserHomeViewController.swift */,
+				89E900A8260AECD500B41447 /* NotificationBanner.swift */,
+				8960B5242609BE9400F3D394 /* PopulationFunctions.swift */,
 				891E357E26046EFE004D9637 /* Assets.xcassets */,
+				89C644D42605383000C4199E /* icons8-next-64.png */,
+				89C644D32605382F00C4199E /* icons8-previous-64.png */,
+				89C644C5260537BC00C4199E /* icons8-refresh-64.png */,
+				89C644B22605303600C4199E /* icons8-bookmark-96.png */,
 				891E358026046EFE004D9637 /* LaunchScreen.storyboard */,
 				891E358326046EFE004D9637 /* Info.plist */,
 			);
@@ -128,16 +186,38 @@
 			path = WebBrowserUITests;
 			sourceTree = "<group>";
 		};
+		F02C8B1D77FA41991F6456EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2045EBB1DA23B261DAFF56C8 /* Pods-WebBrowser.debug.xcconfig */,
+				E8AE2C2BAD082B2FBEFFE10A /* Pods-WebBrowser.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		89BEC31626052DEC0084C2C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		891E357126046EF4004D9637 /* WebBrowser */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 891E359C26046EFE004D9637 /* Build configuration list for PBXNativeTarget "WebBrowser" */;
 			buildPhases = (
+				0382D92FB37AE02548F24F4D /* [CP] Check Pods Manifest.lock */,
+				89BEC31626052DEC0084C2C6 /* Headers */,
 				891E356E26046EF4004D9637 /* Sources */,
 				891E356F26046EF4004D9637 /* Frameworks */,
 				891E357026046EF4004D9637 /* Resources */,
+				D63AD60A63C6D74883CA6E1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +311,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C644C6260537BC00C4199E /* icons8-refresh-64.png in Resources */,
+				89C644D62605383000C4199E /* icons8-next-64.png in Resources */,
+				89C644B62605303800C4199E /* icons8-bookmark-96.png in Resources */,
+				89C644D52605383000C4199E /* icons8-previous-64.png in Resources */,
 				891E358226046EFE004D9637 /* LaunchScreen.storyboard in Resources */,
 				891E357F26046EFE004D9637 /* Assets.xcassets in Resources */,
 				891E357D26046EF5004D9637 /* Main.storyboard in Resources */,
@@ -253,14 +337,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0382D92FB37AE02548F24F4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D63AD60A63C6D74883CA6E1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebBrowser/Pods-WebBrowser-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebBrowser/Pods-WebBrowser-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebBrowser/Pods-WebBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		891E356E26046EF4004D9637 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E900A9260AECD500B41447 /* NotificationBanner.swift in Sources */,
 				891E357A26046EF5004D9637 /* ViewController.swift in Sources */,
+				89BEC2E6260527C60084C2C6 /* TabsTableViewController.swift in Sources */,
+				89BEC2F0260528110084C2C6 /* TabsTableViewCell.swift in Sources */,
+				89BEC2F52605281F0084C2C6 /* BookmarksTableViewCell.swift in Sources */,
 				891E357626046EF4004D9637 /* AppDelegate.swift in Sources */,
+				8960B5252609BE9400F3D394 /* PopulationFunctions.swift in Sources */,
+				8960B51D2609457400F3D394 /* Bookmark.swift in Sources */,
+				89BEC2E12605279B0084C2C6 /* BrowserHomeViewController.swift in Sources */,
+				8960B5152609449F00F3D394 /* Tab.swift in Sources */,
 				891E357826046EF5004D9637 /* SceneDelegate.swift in Sources */,
+				89BEC2EB260527DB0084C2C6 /* BookmarksTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +568,12 @@
 		};
 		891E359D26046EFE004D9637 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2045EBB1DA23B261DAFF56C8 /* Pods-WebBrowser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6362CZ748L;
 				INFOPLIST_FILE = WebBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,10 +588,12 @@
 		};
 		891E359E26046EFE004D9637 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8AE2C2BAD082B2FBEFFE10A /* Pods-WebBrowser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6362CZ748L;
 				INFOPLIST_FILE = WebBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
