@@ -1,3 +1,3 @@
 # iOS Web Browser
 
-![](https://i.imgur.com/QWe0s51.gif)
+![](ios_webBrowser_walkthrough.gif)
